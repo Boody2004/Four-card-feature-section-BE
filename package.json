@@ -1,0 +1,27 @@
+{
+  "name": "four-card-feature-section-masterAfter",
+  "version": "1.0.0",
+  "description": "![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boody2004/Four-card-feature-section-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boody2004/Four-card-feature-section-BE/issues"
+  },
+  "homepage": "https://github.com/Boody2004/Four-card-feature-section-BE#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "server-static": "^2.0.5"
+  }
+}
