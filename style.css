@@ -9,14 +9,13 @@ body {
     margin: 0 auto;
 }
 header {
-    margin: 0 auto;
+    margin: 50px auto;
     max-width: 500px;
     text-align: center;
 }
 h1 {
     font-weight: 200;
     margin: 0;
-    margin-top: 70px;
 }
 h1 span {
     font-weight: 600;
@@ -29,7 +28,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    width: 1140px;
+    max-width: 1140px;
 }
 .box {
     background-color: #fff;
@@ -49,17 +48,17 @@ p {
     height: 5px;
     width: 100%;
 }
-.box-cyan::after {
-    background-color: hsl(180, 62%, 55%);
-}
 .box-red::after {
     background-color: hsl(0, 78%, 62%);
 }
-.box-blue::after {
-    background-color: hsl(212, 86%, 64%);
+.box-cyan::after {
+    background-color: hsl(180, 62%, 55%);
 }
 .box-orange::after {
     background-color: hsl(34, 97%, 64%);
+}
+.box-blue::after {
+    background-color: hsl(212, 86%, 64%);
 }
 .box-push {
     transform: translateY(50%);
